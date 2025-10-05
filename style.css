@@ -1,0 +1,350 @@
+/* <!-- navbar & background video (start) --> */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.content a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* <!-- navbar & background video (end) --> */
+
+
+/* category cards (start) */
+.category-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category-card1 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.hairman.com/wp-content/uploads/2022/10/hairCare.jpg");
+    background-size: cover;
+}
+    
+.category-card2 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5d5694b9839a3a000100bf69/759f1e2e-c558-4b00-81ce-83e2d87df008/PolishedStyle_stylingelle.jpg");
+    background-size: cover;
+}
+
+.category-card3 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.keunepakistan.com/cdn/shop/files/Men_copy.jpg?v=1724142893&width=500");
+    background-size: cover;
+}
+
+.category-card4 {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.keunepakistan.com/cdn/shop/files/Colour_2000x2000_836eefc3-e7aa-458f-9da3-cbeae3848c2a.jpg?v=1742199189&width=500");
+    background-size: cover;
+}
+.category-card1:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.category-card2:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.category-card3:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.category-card4:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+
+.category-card1 h2 {
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+.category-card2 h2 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+.category-card3 h2 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+.category-card4 h2 {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}   
+/* category cards (end) */
+/* <!-- category-cards (start) --> */
+    .FEATURED{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+.featured-img :hover {
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+
+/* <!-- category-cards (end) --> */
+
+/* FEATURED (start) */
+
+.container-featured{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.featured-img :hover{
+    transform:rotateY('45deg');
+}
+.featured-product-description {
+    text-align: center;
+}
+
+/* FEATURED (end) */
+
+/* <!-- Sale Banner (Start) --> */
+.sale-banner-img{
+    width: 100%;
+}
+/* <!-- Sale Banner (end) --> */
+
+/* SLIDER (START) */
+
+.slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px *18);
+    animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 9));
+    }
+}
+
+.slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.slide-image {
+    width: 100%;
+}
+
+.slide-image :hover {
+    transform: translateZ(20px);
+    transition: transform 1s;
+}
+
+/* GRADIENT SHADOWS (start) */
+
+.slider::before,
+.slider::after {
+    background:linear-gradient(to right, rgb(255, 255, 255) 0%,
+    rgba(255,255,255,0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 20%;
+    z-index: 2;
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+
+/* GRADIENT SHADOWS (end) */
+
+
+/* SLIDER (end) */
+
+/* Book Now Banner (start) */
+
+.book-now {
+    width: 100%px;
+    height: 800px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    background-image: url("assets/images/book\ now.png");
+    background-size: cover;
+}
+
+/* Book Now Banner (end) */
+
+/* Top Seller Product (Start) */
+.top-seller-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+/* Top Seller Product (end) */
+
+/* images (start) */
+.img-box-1 {
+    text-align: center;
+}
+
+.img-1 {
+    height: 400px;
+    margin: 10px;
+}
+.img-2 {
+    height: 400px;
+    margin: 10px;
+}
+.img-3 {
+    height: 400px;
+    margin: 10px;
+}
+.img-box-2 {
+    text-align: center;
+}
+.img-4 {
+    height: 612px;
+    margin: 10px;
+}
+.img-5 {
+    height: 612px;
+    margin: 10px;
+}
+
+.img-1:hover {
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.img-2:hover {
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.img-3:hover {
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.img-4:hover {
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+.img-5:hover {
+    transform: scale(105%);
+    transition-duration: 1s;
+}
+
+/* images (start) */
