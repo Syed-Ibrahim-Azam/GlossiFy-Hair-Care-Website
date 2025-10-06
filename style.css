@@ -28,8 +28,6 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo {}
-
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -187,7 +185,7 @@ nav ul li a {
     text-align: center;
 }
 .featured-img :hover{
-    transform:rotateY('45deg');
+    transform: scale(110%);
 }
 .featured-product-description {
     text-align: center;
@@ -348,3 +346,16 @@ nav ul li a {
 }
 
 /* images (start) */
+
+/* <!-- Blog Post (start) --> */
+
+.blog-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.container-blog {
+    padding: 20px;
+}
+/* <!-- Blog Post (end) --> */
