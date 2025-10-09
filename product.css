@@ -1,13 +1,52 @@
+
+/* navbar (start) */
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 130px;
+    color: #000000;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* navbar (end) */
+
 h5{
     text-align: center;
 }
 P{
     text-align: center;
 }
-h{
-    text-align: center;
-    margin-top: 60px;
-   font-family: 'Times New Roman', Times, serif;
+h1{
+    
+    background-color: #000;
+    font-family: 'Times New Roman', Times, serif;
   
 }
 .abc{
@@ -79,7 +118,7 @@ h2:hover{
     position: relative;
     color: white;
     font-size: 100px;
-    left: 500px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     
 
@@ -90,7 +129,7 @@ h2:hover{
     position: relative;
     color: white;
     font-size: 80px;
-    left: 370px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -99,7 +138,7 @@ h2:hover{
     position: relative;
     color: white;
     font-size: 100px;
-    left: 620px;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     
 }
