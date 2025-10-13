@@ -1,11 +1,18 @@
 /* <!-- navbar & background video (start) --> */
+
+
+@font-face {
+    font-family: "merriweather";
+    src: url(m);
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-
 .hero {
     width: 100%;
     height: 100vh;
@@ -80,8 +87,9 @@ nav ul li a {
 }
 
 .category-card1 {
-    width: 300px;
-    height: 300px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,8 +98,9 @@ nav ul li a {
 }
     
 .category-card2 {
-    width: 300px;
-    height: 300px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,8 +109,9 @@ nav ul li a {
 }
 
 .category-card3 {
-    width: 300px;
-    height: 300px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,8 +120,9 @@ nav ul li a {
 }
 
 .category-card4 {
-    width: 300px;
-    height: 300px;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,19 +131,19 @@ nav ul li a {
 }
 .category-card1:hover{
     transform: scale(105%);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 .category-card2:hover{
     transform: scale(105%);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 .category-card3:hover{
     transform: scale(105%);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 .category-card4:hover{
     transform: scale(105%);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .category-card1 h2 {
@@ -349,19 +360,46 @@ nav ul li a {
 
 /* models (end) */
 
+/* <!-- customer reviews (start) --> */
+.container-customer-reveiw {
+    background-color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+
+}
+.card {
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: scale(105%);
+    transition-duration:0.5s;
+}
+.customer-review-heading-bg {
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.customer-review-heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+/* <!-- customer reviews (end) --> */
 /* <!-- product promotion (start) --> */
 .promotion-heading-background {
     background-color: #000;
 }
 .product-promotion-background {
-    height: 800px;
+    height: 870px;
     background-color: #000000;
 }
 .promotion-heading {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    font-family:'Times New Roman', Times, serif;
     color: white;
 }
 .product-promotion {
@@ -384,17 +422,10 @@ nav ul li a {
 /* <!-- Blog Post (end) --> */
 
 /* <!-- footer (start) --> */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: #000000;
-  color: #fff;
 }
 
 .footer {
@@ -485,4 +516,4 @@ body {
 }
 
 
-/* <!-- footer (start) --> */
+/* <!-- footer (end) --> */

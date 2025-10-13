@@ -1,0 +1,78 @@
+h5{
+    text-align: center;
+}
+P{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: 60px;
+
+  
+}
+.abc{
+   height: 100px;
+   width: 1600px;
+}
+.btn{
+    border-radius: 15px;
+   width: 200px;
+   margin-left: 25px;
+    background-color: white;
+    color: black;
+    border: transparent;
+    border: 2px solid black;
+}
+.btn:hover{
+    background-color:black;
+    color: white;
+    
+   
+}
+h2:hover{
+    text-decoration: underline;
+    
+}
+.card-img-top{
+    transition-duration:  1s;
+}
+.card-img-top:hover{
+    transform: scale(105%);
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    
+    
+}
+.cont{
+    background-color: black;
+    height: 300px;
+    width: 1696px;
+    margin-top: 180px;
+    position: relative;
+
+}
+body{
+    overflow-x: hidden;
+    
+
+}
+.conditioner{
+    bottom: 225px;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    left: 500px;
+  
+}
+.hairserum{
+      bottom: 225px;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    left: 550px;
+    
+}
+

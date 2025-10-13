@@ -33,127 +33,85 @@ nav ul li a {
   font-weight: 600;
   font-family: 'Times New Roman', Times, serif;
 }
-
 /* navbar (end) */
 
-h5 {
-  text-align: center;
+h5{
+    text-align: center;
 }
-
-P {
-  text-align: center;
+P{
+    text-align: center;
 }
+h2{
+    text-align: center;
+    margin-top: 60px;
 
-h1 {
-
-  background-color: #000;
-  font-family: 'Times New Roman', Times, serif;
-
+  
 }
-
-.abc {
-  height: 100px;
-  width: 1600px;
+.abc{
+   height: 100px;
+   width: 1600px;
 }
-
-.btn {
-  border-radius: 15px;
-  width: 200px;
-  margin-left: 25px;
-  background-color: white;
-  color: black;
-  border: transparent;
-  border: 2px solid black;
+.btn{
+    border-radius: 15px;
+   width: 200px;
+   margin-left: 25px;
+    background-color: white;
+    color: black;
+    border: transparent;
+    border: 2px solid black;
 }
-
-.btn:hover {
-  background-color: black;
-  color: white;
-
+.btn:hover{
+    background-color:black;
+    color: white;
+    
+   
 }
-
-h2:hover {
-  text-decoration: underline;
-
+h2:hover{
+    text-decoration: underline;
+    
 }
-
-.card-img-top {
-  transition-duration: 1s;
+.card-img-top{
+    transition-duration:  1s;
 }
-
-.card-img-top:hover {
-  transform: scale(105%);
+.card-img-top:hover{
+    transform: scale(105%);
 }
-
-/* h2 heading */
-.all-product-heading {
-  background-color: #000;
-  text-align: center;
-  margin-top: 40px;
-  font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #ffffff;
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+    
+    
 }
-
-.product-heading {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 50px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #000;
-}
-
-/* h2 heading end */
-.cont {
-  background-color: black;
-  height: 300px;
-  width: 1696px;
-  margin-top: 180px;
-  position: relative;
-  width: 100%;
+.cont{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    margin-top: 180px;
+    position: relative;
 
 }
-
-.shamp {
-  bottom: 225px;
-  position: relative;
-  color: white;
-  font-size: 100px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+body{
+    overflow-x: hidden;
+    
 
 }
-
-.conditioner {
-  bottom: 225px;
-  position: relative;
-  color: white;
-  font-size: 100px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-
-
-}
-
-.leaveincon {
-
-  bottom: 225px;
-  position: relative;
-  color: white;
-  font-size: 80px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+.conditioner{
+    bottom: 225px;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    left: 500px;
+  
+    
 
 }
-
-.hairoil {
-  bottom: 225px;
-  position: relative;
-  color: white;
-  font-size: 100px;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-
+.haircream{
+    bottom: 225px;
+    position: relative;
+    color: white;
+    font-size: 100px;
+    text-align: center;
 }
 
 /* <!-- footer (start) --> */
