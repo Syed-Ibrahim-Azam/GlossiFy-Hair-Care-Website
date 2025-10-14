@@ -1,37 +1,127 @@
 /* navbar (start) */
 nav {
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  padding: 20px 8%;
+  padding: 15px 8%;
+  background: rgba(0, 0, 0, 0.7);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
 }
 
 nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 40px;
+  position: relative;
+  margin-left: 30px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #000000;
-  font-size: 22px;
+  color: white;
+  font-size: 18px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.content {
-  text-align: center;
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: #222;
+  padding: 10px 0;
+  border-radius: 8px;
+  top: 35px;
+  min-width: 180px;
+  z-index: 10;
 }
 
-.content h1 {
-  font-size: 130px;
-  color: #000000;
-  font-weight: 600;
-  font-family: 'Times New Roman', Times, serif;
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.dropdown-menu li a:hover {
+  background: #444;
+}
+
+/* Show dropdown on hover (desktop only) */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Hamburger icon */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* -----------------
+   RESPONSIVE DESIGN
+------------------ */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  nav ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    padding: 10px 0;
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  nav ul li {
+    margin: 15px 0;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    background: rgba(30, 30, 30, 0.9);
+    width: 100%;
+    border-radius: 0;
+    display: none;
+  }
+
+  .dropdown-menu.show {
+    display: block;
+  }
+
+  .nav-item:hover .dropdown-menu {
+    display: none;
+    /* Disable hover on mobile */
+  }
 }
 
 /* navbar (end) */
@@ -192,9 +282,11 @@ body {
 .aboutus-text {
   text-align: start;
 }
+
 .contact-info {
   text-align: start;
 }
+
 .footer-section a,
 .footer-section li {
   color: #ffffff;

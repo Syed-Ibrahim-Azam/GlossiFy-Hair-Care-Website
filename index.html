@@ -22,63 +22,94 @@
         </Video>
 
         <nav>
-            <a href="index.html"><img src="assets/images/Logo-Banner/logo.png" height="100PX" class="logo"></a>
-            <ul>
+            <a href="index.html">
+                <img src="assets/images/Logo-Banner/logo.png" height="70px" class="logo">
+            </a>
+
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+            <ul id="nav-links">
                 <li><a href="index.html">HOME</a></li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false" style="color:white; font-size: 22px;">
-                        HAIR CARE
-                    </a>
+                    <a class="dropdown-toggle" href="#">HAIR CARE</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="shampoo.html" target="_blank">Shampoo</a></li>
-                        <li><a class="dropdown-item" href="conditioner.html" target="_blank">Conditioner</a></li>
-                        <li><a class="dropdown-item" href="leave in conditioner.html" target="_blank">Leave-in
-                                Conditioner</a></li>
-                        <li><a class="dropdown-item" href="hairoil.html" target="_blank">Hair Oil</a></li>
-                        <li><a class="dropdown-item" href="haircream.html" target="_blank">Hair Cream</a></li>
-                        <li><a class="dropdown-item" href="hair serum.html" target="_blank">Hair Serum</a></li>
-                        <li><a class="dropdown-item" href="hair mask.html" target="_blank">Hair Mask</a></li>
-                        <li><a class="dropdown-item" href="hairspray.html" target="_blank">Hair Spray</a></li>
-                        <li><a class="dropdown-item" href="hairlotion.html" target="_blank">Lotion</a></li>
+                        <li><a href="shampoo.html" target="_blank">Shampoo</a></li>
+                        <li><a href="conditioner.html" target="_blank">Conditioner</a></li>
+                        <li><a href="leave in conditioner.html" target="_blank">Leave-in Conditioner</a></li>
+                        <li><a href="hairoil.html" target="_blank">Hair Oil</a></li>
+                        <li><a href="haircream.html" target="_blank">Hair Cream</a></li>
+                        <li><a href="hair serum.html" target="_blank">Hair Serum</a></li>
+                        <li><a href="hair mask.html" target="_blank">Hair Mask</a></li>
+                        <li><a href="hairspray.html" target="_blank">Hair Spray</a></li>
+                        <li><a href="hairlotion.html" target="_blank">Lotion</a></li>
                     </ul>
                 </li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false" style="color:white; font-size: 22px;">
-                        MEN
-                    </a>
+                    <a class="dropdown-toggle" href="#">MEN</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="Men-Shampoo.html">Shampoo</a></li>
-                        <li><a class="dropdown-item" href="men-conditioner.html">Conditioner</a></li>
-                        <li><a class="dropdown-item" href="#">Hair Wax</a></li>
-                        <li><a class="dropdown-item" href="#">Beard Balm</a></li>
-                        <li><a class="dropdown-item" href="#">Beard Oil</a></li>
-                        <li><a class="dropdown-item" href="#">Shaving Cream</a></li>
+                        <li><a href="Men-Shampoo.html">Shampoo</a></li>
+                        <li><a href="men-conditioner.html">Conditioner</a></li>
+                        <li><a href="#">Hair Wax</a></li>
+                        <li><a href="#">Beard Balm</a></li>
+                        <li><a href="#">Beard Oil</a></li>
+                        <li><a href="#">Shaving Cream</a></li>
                     </ul>
                 </li>
+
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false" style="color:white; font-size: 22px;">
-                        HAIR TREATMENT
-                    </a>
+                    <a class="dropdown-toggle" href="#">HAIR TREATMENT</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Hair Loss</a></li>
-                        <li><a class="dropdown-item" href="#">Graying</a></li>
-                        <li><a class="dropdown-item" href="#">Hair Growth</a></li>
-                        <li><a class="dropdown-item" href="#">Premature Baldness</a></li>
-                        <li><a class="dropdown-item" href="#">Hair Transplant</a></li>
+                        <li><a href="#">Hair Loss</a></li>
+                        <li><a href="#">Graying</a></li>
+                        <li><a href="#">Hair Growth</a></li>
+                        <li><a href="#">Premature Baldness</a></li>
+                        <li><a href="#">Hair Transplant</a></li>
                     </ul>
                 </li>
+
+                <li class="nav-item dropdown">
+                    <a class="dropdown-toggle" href="#">HAIR EQUIPMENT</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Hair DRYYER</a></li>
+                        <li><a href="#">Graying</a></li>
+                        <li><a href="#">Hair Growth</a></li>
+                        <li><a href="#">Premature Baldness</a></li>
+                        <li><a href="#">Hair Transplant</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">LOGIN</a></li>
                 <li><a href="#">SIGN UP</a></li>
             </ul>
         </nav>
+
+        <script>
+            // Toggle mobile menu
+            const toggle = document.getElementById('menu-toggle');
+            const navLinks = document.getElementById('nav-links');
+
+            toggle.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            });
+
+            // Dropdown toggle for mobile
+            document.querySelectorAll('.dropdown-toggle').forEach(item => {
+                item.addEventListener('click', e => {
+                    if (window.innerWidth <= 768) {
+                        e.preventDefault();
+                        item.nextElementSibling.classList.toggle('show');
+                    }
+                });
+            });
+        </script>
+
         <div class="content">
             <h1 class="glossyFi-text-main">Glossyfi</h1>
             <a href="#"><button type="button" class="btn btn-outline-light"
-                    style="border-radius: 30px; width: 150px; font-size: 24px; font-weight: bolder;">Explore</button></a>
+                    style="border-radius: 30px; width: 150px; font-size: 30px; font-weight: bolder;">Explore</button></a>
         </div>
     </div>
     <!-- navbar & background video (end) -->
@@ -503,14 +534,10 @@
                     the family business will be known as Royal Keune Haircosmetics.
                 </p>
                 <div class="social-icons">
-                    <a href="#" target="_blank"><i
-                            class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i></a>
-                    <a href="#" target="_blank"><i
-                            class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-youtube fa-lg"
-                            style="color: #ffffff;"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-tiktok fa-lg"
-                            style="color: #ffffff;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-youtube fa-lg" style="color: #ffffff;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-tiktok fa-lg" style="color: #ffffff;"></i></a>
                 </div>
                 <p class="copyright">© GLOSSYFI.COM</p>
             </div>
