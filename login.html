@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1311);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .login-box {
+      background: rgba(40, 30, 30, 0.817);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 320px;
+      box-shadow: 5px 5px 5px;
+   
+     
+    }
+
+    .login-box img.logo {
+      width: 140px;
+      margin-bottom: 20px;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: #fdfbfb;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 12px 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+
+    .login-box input[type="submit"] {
+      width: 100%;
+      padding: 12px;
+      background-color:;
+      color: rgb(216, 215, 215)
+      border: transparent;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-box input[type="submit"]:hover {
+      background-color: rgb(49, 49, 49)
+      border: transparent;
+      border-radius: 2px;      
+    }
+    .logo{
+        height: 150px;
+        width: 260px;
+        margin-top: 30px;
+    }
+    
+    @media (max-width: 480px) {
+      .login-box {
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <!-- Replace logo URL below with your own -->
+    <img src="assets/images/Logo-Banner/logo white.png" alt="Logo" class="logo">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+   <!-- <div><img class="bgimg" src="https://melano.in/assets/products.C8j9kkdy.webp" alt=""></div> -->
+</body>
+</html>

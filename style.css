@@ -15,8 +15,7 @@
 }
 .hero {
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.3));
+    height:1045px;
     position: relative;
     padding: 0 5%;
     display: flex;
@@ -84,7 +83,7 @@ nav ul li a {
 }
 
 .dropdown-menu li a:hover {
-    background: #444;
+    background: #ffffff;
 }
 
 /* Show dropdown on hover (desktop only) */
@@ -96,7 +95,7 @@ nav ul li a {
 .menu-toggle {
     display: none;
     font-size: 30px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     width: 85%;
 }
@@ -108,7 +107,16 @@ nav ul li a {
     .menu-toggle {
         display: block;
     }
-
+    .back-video {
+        display: none;
+    }
+    .hero {
+        height: 500px;
+        background-color: black;
+    }
+    .glossyFi-text-main {
+        display: none;
+    }
     nav ul {
         position: absolute;
         top: 100%;
@@ -175,10 +183,7 @@ nav ul li a {
 
     z-index: -1;
 }
-.glossyFi-text-main {
-    font-weight: bolder;
-    outline-color: #000;
-}
+
 
 /* <!-- navbar & background video (end) --> */
 
@@ -290,7 +295,7 @@ nav ul li a {
 
 .featured-img :hover {
     transform: scale(105%);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 /* <!-- category-cards (end) --> */
@@ -389,21 +394,6 @@ nav ul li a {
 
 
 /* SLIDER (end) */
-
-/* Book Now Banner (start) */
-
-.book-now {
-    width: 100%px;
-    height: 800px;
-    display: flex;
-    justify-content: start;
-    align-items: end;
-    background-image: url("assets/images/Logo-Banner/book\ now.png");
-    background-size: cover;
-}
-
-/* Book Now Banner (end) */
-
 /* Top Seller Product (Start) */
 .top-seller-heading {
     text-align: center;
@@ -412,6 +402,59 @@ nav ul li a {
     font-family:'Times New Roman', Times, serif;
 }
 /* Top Seller Product (end) */
+
+/* service start */
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  gap: 30px;
+  padding-inline: 30px;
+}
+
+.service-item { width: 220px; }
+
+.service-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.service-card .card-icon {
+  background: var(--bittersweet);
+  min-width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+
+.service-card .card-icon img {
+  filter: brightness(0) invert(1);
+  width: 60%;
+  height: auto;
+}
+
+.service-card .card-title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.service-card .card-text {
+  color: var(--onyx);
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-7);
+}
+
+.service-card .card-text span {
+  display: inline-block;
+  color: var(--bittersweet);
+}
+/* service end */
+
+
 
 /* models (start) */
 .img-box-1 {

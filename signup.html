@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Signup Form</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(https://images.unsplash.com/photo-1633793566189-8e9fe6f817fc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+    }
+
+    .signup-box {
+      background-color: rgb(53, 43, 43);
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+     
+      opacity: 0.9;
+    }
+
+    .logo {
+      width: 130px;
+      height: 150px;
+      margin-top: 30px;
+      /* margin-bottom: 20px; */
+    }
+
+    h2 {
+      margin-bottom: 25px;
+      color: white;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 15px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color:black;
+      border: none;
+      color:white;
+      font-size: 16px;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: rgb(73, 70, 70);
+    }
+
+    .footer {
+      margin-top: 15px;
+      font-size: 14px;
+      color: white;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    @media (max-width: 480px) {
+      .signup-box {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="signup-box">
+    <!-- Replace with your logo -->
+    <img src="assets/images/Logo-Banner/logo white.png" alt="Logo" class="logo" />
+
+    <h2>Sign Up</h2>
+
+    <form action="/signup" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Create Account</button>
+    </form>
+
+    <div class="footer">
+      Already have an account? <a href="/login">Log in</a>
+    </div>
+  </div>
+
+</body>
+</html>
