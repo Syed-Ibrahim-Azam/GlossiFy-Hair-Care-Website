@@ -172,80 +172,119 @@ nav ul li a {
     
 
 /* navbar (end) */
-h5{
-    text-align: center;
-}
-P{
-    text-align: center;
-}
-h2{
-    text-align: center;
-    margin-top: 60px;
 
-  
-}
-.abc{
-   height: 100px;
-   width: 1600px;
-}
-.btn{
-    border-radius: 15px;
-   width: 200px;
-   margin-left: 25px;
-    background-color: white;
-    color: black;
-    border: transparent;
-    border: 2px solid black;
-}
-.btn:hover{
-    background-color:black;
-    color: white;
-    
-   
-}
-h2:hover{
-    text-decoration: underline;
-    
-}
-.card-img-top{
-    transition-duration:  1s;
-}
-.card-img-top:hover{
-    transform: scale(105%);
-}
-h1{
-    text-align: center;
-    margin-top: 40px;
-    font-size: 50px;
-    
-    
-}
-.cont{
-    background-color: black;
-    height: 300px;
-    width: 1696px;
-    margin-top: 180px;
-    position: relative;
 
-}
-body{
-    overflow-x: hidden;
-    
 
+.img{
+    width: 100%;
 }
-.conditioner{
-    bottom: 225px;
-    position: relative;
-    color: white;
-    font-size: 100px;
-    left: 500px;
-  
+
+/* <!-- footer (start) --> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.hairlotion{
-      bottom: 225px;
-    position: relative;
-    color: white;
-    font-size: 100px;
-    left: 510px;
-    
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #fff;
 }
+
+.footer {
+  background-color: #000000;
+  padding: 60px 100px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 60px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.aboutus-text {
+  text-align: start;
+}
+
+.contact-info {
+  text-align: start;
+}
+
+.footer-section a,
+.footer-section li {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #a8a8a8;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.social-icons {
+  margin-top: 25px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 18px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.newsletter input::placeholder {
+  color: #aaa;
+}
+
+.newsletter button {
+  margin-top: 15px;
+  padding: 12px 22px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #e5e5e5;
+}
+
+.copyright {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* <!-- footer (start) --> */
