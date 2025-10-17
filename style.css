@@ -512,8 +512,9 @@ nav ul li a {
 .container-customer-reveiw {
     background-color: #000;
     display: flex;
+    height:600px ;
     justify-content: space-evenly;
-    align-items: start;
+    align-items: center;
 
 }
 .card {
@@ -534,6 +535,8 @@ nav ul li a {
     font-size: 50px;
     font-weight: bold;
     color: white;
+    margin-top: 50px;
+    
 }
 /* <!-- customer reviews (end) --> */
 /* <!-- product promotion (start) --> */

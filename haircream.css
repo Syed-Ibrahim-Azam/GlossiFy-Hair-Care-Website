@@ -188,12 +188,14 @@ body{
     
 
 }
-.haircream{
-    bottom: 225px;
-    position: relative;
-    color: white;
-    font-size: 100px;
-    text-align: center;
+.shamp {
+  bottom: 225px;
+  position: relative;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 
 /* <!-- footer (start) --> */
