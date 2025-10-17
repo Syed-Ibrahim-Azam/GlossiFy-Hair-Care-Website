@@ -560,17 +560,60 @@ nav ul li a {
 /* <!-- product promotion (end) --> */
 
 /* <!-- Blog Post (start) --> */
-
+/* Blog Section */
 .blog-heading {
     text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    font-family:'Times New Roman', Times, serif;
 }
-.container-blog {
-    padding: 20px;
+.blog-section {
+    width: 100%;
+    text-align: center;
+
 }
-/* <!-- Blog Post (end) --> */
+
+.blog-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.blog-card {
+    width: 300px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.blog-card img {
+    height: 250px;
+    border-radius: 6px;
+}
+
+.blog-card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+.blog-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+    margin: 10px 0 15px;
+}
+
+.blog-card a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    border-bottom: 1px solid #000;
+    transition: all 0.3s ease;
+}
+
+.blog-card a:hover {
+    color: #666;
+    border-color: #666;
+}/* <!-- Blog Post (end) --> */
 
 /* <!-- footer (start) --> */
 * {
