@@ -242,18 +242,22 @@ nav ul li a {
 .category-card1:hover{
     transform: scale(105%);
     transition-duration: 0.5s;
+    box-shadow:  5px 5px 5px 5px rgb(129, 129, 129);
 }
 .category-card2:hover{
     transform: scale(105%);
     transition-duration: 0.5s;
+    box-shadow:  5px 5px 5px 5px rgb(129, 129, 129);
 }
 .category-card3:hover{
     transform: scale(105%);
     transition-duration: 0.5s;
+    box-shadow:  5px 5px 5px 5px rgb(129, 129, 129);
 }
 .category-card4:hover{
     transform: scale(105%);
     transition-duration: 0.5s;
+    box-shadow:  5px 5px 5px 5px rgb(129, 129, 129);
 }
 
 .category-card1 h2 {
