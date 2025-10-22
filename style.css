@@ -197,97 +197,69 @@ nav ul li a {
 .category-anchor-tag {
     text-decoration: none;
 }
-.category-card1 {
+.brand-card1 {
     margin: 20px;
     width: 300px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://www.hairman.com/wp-content/uploads/2022/10/hairCare.jpg");
+    background-image: url("assets/images/Logo-Banner/Dari\ Mooch.jpg");
     background-size: cover;
 }
     
-.category-card2 {
+.brand-card2 {
     margin: 20px;
     width: 300px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5d5694b9839a3a000100bf69/759f1e2e-c558-4b00-81ce-83e2d87df008/PolishedStyle_stylingelle.jpg");
+    background-image: url("assets/images/Logo-Banner/Keune.jpg");
     background-size: cover;
 }
-.category-card3 {
+.brand-card3 {
     margin: 20px;
     width: 300px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://www.keunepakistan.com/cdn/shop/files/Men_copy.jpg?v=1724142893&width=500");
+    background-image: url("assets/images/Logo-Banner/Saeed\ Ghani.jpg");
     background-size: cover;
 }
 
-.category-card4 {
+.brand-card4 {
     margin: 20px;
     width: 300px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://www.keunepakistan.com/cdn/shop/files/Colour_2000x2000_836eefc3-e7aa-458f-9da3-cbeae3848c2a.jpg?v=1742199189&width=500");
+    background-image: url("https://www.shutterstock.com/image-photo/poznan-pol-jul-4-2019-600nw-1444555031.jpg");
     background-size: cover;
 }
-.category-card1:hover{
+.brand-card1:hover{
     transform: scale(105%);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     box-shadow:  5px 5px 5px 5px rgb(0, 0, 0);
 }
-.category-card2:hover{
+.brand-card2:hover{
     transform: scale(105%);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     box-shadow:  5px 5px 5px 5px rgb(0, 0, 0);
 }
-.category-card3:hover{
+.brand-card3:hover{
     transform: scale(105%);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     box-shadow:  5px 5px 5px 5px rgb(0, 0, 0);
 }
-.category-card4:hover{
+.brand-card4:hover{
     transform: scale(105%);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     box-shadow:  5px 5px 5px 5px rgb(0, 0, 0);
 }
-
-.category-card1 h2 {
-    font-size: 2rem;
-    color: black;
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}   
-.category-card2 h2 {
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}   
-.category-card3 h2 {
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}   
-.category-card4 h2 {
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}   
+   
 /* category cards (end) */
 /* <!-- category-cards (start) --> */
     .FEATURED{
@@ -325,6 +297,38 @@ nav ul li a {
     width: 100%;
 }
 /* <!-- Sale Banner (end) --> */
+
+.featured-brand{
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+
+.category-card5:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+    box-shadow:  5px 5px 5px 5px rgb(175, 175, 175);
+}
+.category-card6:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+    box-shadow:  5px 5px 5px 5px rgb(175, 175, 175);
+}
+.category-card7:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+    box-shadow:  5px 5px 5px 5px rgb(175, 175, 175);
+}
+.category-card8:hover{
+    transform: scale(105%);
+    transition-duration: 1s;
+    box-shadow:  5px 5px 5px 5px rgb(175, 175, 175);
+}
+
 
 /* SLIDER (START) */
 
