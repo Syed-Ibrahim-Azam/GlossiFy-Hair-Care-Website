@@ -1,0 +1,408 @@
+/* navbar (start) */
+@font-face {
+    font-family: "merriweather";
+    src: url(m);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hero {
+    width: 100%;
+    height:1045px;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 8%;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+nav ul li {
+    position: relative;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    padding: 10px 0;
+    border-radius: 8px;
+    top: 35px;
+    min-width: 180px;
+    z-index: 10;
+}
+
+.dropdown-menu li {
+    margin: 0;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.dropdown-menu li a:hover {
+    background: #ffffff;
+}
+
+/* Show dropdown on hover (desktop only) */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+/* Hamburger icon */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 85%;
+}
+
+/* -----------------
+   RESPONSIVE DESIGN
+------------------ */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+    .back-video {
+        display: none;
+    }
+    .hero {
+        height: 500px;
+        background-color: black;
+    }
+    .glossyFi-text-main {
+        display: none;
+    }
+    nav ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+        padding: 10px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 15px 0;
+        width: 100%;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .dropdown-menu {
+        position: static;
+        background: rgba(255, 255, 255, 0.9);
+        width: 80%;
+        border-radius: 0;
+        display: none;
+        color: #fff;
+    }
+
+    .dropdown-menu.show {
+        display: block;
+    }
+    .back-video {
+        align-content: start;
+    }
+    .nav-item:hover .dropdown-menu {
+        display: none; /* Disable hover on mobile */
+    }
+}
+
+
+.container-banner {
+  justify-self: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 130px;
+    color: #fff;
+    font-weight: 600;
+    font-family:'Times New Roman', Times, serif;
+}
+    
+
+/* navbar (end) */
+
+h5 {
+  text-align: center;
+}
+
+P {
+  text-align: center;
+}
+
+h1 {
+
+  background-color: #000;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.abc {
+  height: 100px;
+  width: 1600px;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 220px;
+  margin-left: 25px;
+  background-color: white;
+  color: black;
+  border: transparent;
+  border: 1px solid black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+
+}
+
+h2:hover {
+  text-decoration: underline;
+
+}
+
+.card-img-top {
+  transition-duration: 1s;
+}
+
+.card-img-top:hover {
+  transform: scale(105%);
+}
+
+/* h2 heading */
+.all-product-heading {
+  background-color: #000;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+
+.product-heading {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000;
+}
+
+/* h2 heading end */
+.cont {
+  background-color: black;
+  height: 300px;
+  width: 1696px;
+  margin-top: 180px;
+  position: relative;
+  width: 100%;
+
+}
+
+.shamp {
+  bottom: 225px;
+  position: relative;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.conditioner {
+  bottom: 225px;
+  position: relative;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.leaveincon {
+
+  bottom: 225px;
+  position: relative;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.hairoil {
+  bottom: 225px;
+  position: relative;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* <!-- footer (start) --> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #fff;
+}
+
+.footer {
+  background-color: #000000;
+  padding: 60px 100px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 60px;
+}
+
+.footer-section h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.aboutus-text {
+  text-align: start;
+}
+
+.contact-info {
+  text-align: start;
+}
+
+.footer-section a,
+.footer-section li {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.8;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #a8a8a8;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.social-icons {
+  margin-top: 25px;
+}
+
+.social-icons a {
+  color: #ccc;
+  margin-right: 18px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.newsletter input {
+  width: 100%;
+  padding: 12px;
+  border-bottom: 1px solid #ffffff;
+  background: transparent;
+  color: #fff;
+  margin-top: 15px;
+}
+
+.newsletter input::placeholder {
+  color: #aaa;
+}
+
+.newsletter button {
+  margin-top: 15px;
+  padding: 12px 22px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #e5e5e5;
+}
+
+.copyright {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* <!-- footer (start) --> */
