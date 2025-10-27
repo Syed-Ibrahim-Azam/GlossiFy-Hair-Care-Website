@@ -293,7 +293,7 @@ nav ul li a {
 /* FEATURED (end) */
 
 /* <!-- Sale Banner (Start) --> */
-.sale-banner-img{
+.sale-banner2-img {
     width: 100%;
 }
 /* <!-- Sale Banner (end) --> */
@@ -333,7 +333,6 @@ nav ul li a {
 /* SLIDER (START) */
 
 .slider {
-    height: 250px;
     margin: auto;
     position: relative;
     width: 100%;
@@ -357,7 +356,6 @@ nav ul li a {
 }
 
 .slide {
-    height: 100px;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -365,7 +363,7 @@ nav ul li a {
 }
 
 .slide-image {
-    width: 100%;
+    width: 500px;
 }
 
 .slide-image :hover {
@@ -402,6 +400,147 @@ nav ul li a {
 
 
 /* SLIDER (end) */
+
+
+.nike-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 50px 80px;
+    flex-wrap: wrap;
+}
+
+/* Left Trend Section */
+.trend-box {
+    background: #000;
+    color: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px;
+    height: 570PX;
+}
+
+.trend-box h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.trend-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.explore-btn {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+    transition: 0.3s;
+}
+
+.explore-btn:hover {
+    color: #8a8888;
+    border-color: #8a8888;
+}
+
+/* Right Product Section */
+.products {
+    flex: 1;
+}
+
+.products h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.products hr {
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #000000;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    position: relative;
+}
+
+.product-card img {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+}
+
+.badge {
+    background: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.category {
+    color: #777;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.product-card h4 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.price {
+    color: #1a7a06;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.progress-bar {
+    width: 60%;
+    height: 6px;
+    background: #ff5c5c;
+    border-radius: 5px;
+    margin: 10px auto 0;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .nike-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .product-list {
+        justify-content: center;
+    }
+}
+
+
 /* Top Seller Product (Start) */
 .top-seller-heading {
     text-align: center;
@@ -515,6 +654,8 @@ nav ul li a {
 }
 
 /* models (end) */
+
+
 
 /* <!-- customer reviews (start) --> */
 .container-customer-reveiw {
