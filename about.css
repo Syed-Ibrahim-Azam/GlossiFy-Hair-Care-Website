@@ -618,11 +618,13 @@ header h1 {
   font-size: 0.9rem;
   color:  #e3e9e4;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 .team-member .bio {
   font-size: 0.9rem;
   color:  #e3e9e4;
+  text-align: center;
 }
 
 /* Responsive Team Layout */

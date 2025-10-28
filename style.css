@@ -83,7 +83,8 @@ nav ul li a {
 }
 
 .dropdown-menu li a:hover {
-    background: #ffffff;
+    background: #000000;
+    color: white;
 }
 
 /* Show dropdown on hover (desktop only) */
@@ -859,4 +860,4 @@ nav ul li a {
 }
 
 
-/* <!-- footer (end) --> */
+/* <!-- footer (end) --> */ 
